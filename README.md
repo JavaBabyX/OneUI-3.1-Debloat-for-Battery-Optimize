@@ -1,19 +1,22 @@
-# Author:JavaBabyX readptationn of Lâm Minh Thiện https://github.com/lamminhthien-ntu/OneUI-3.1-Debloat-for-Battery-Optimize
-# Country: ,Vietnam
-# Tested Device: Galaxy A31 A10f (SM-A315G XXV)
+# Author:JavaBabyX adaptation of Lâm Minh Thiện's https://github.com/lamminhthien-ntu/OneUI-3.1-Debloat-for-Battery-Optimize
+# Country: ZA ,Vietnam
+# Tested Device: Galaxy A31 & A10f XFA (SM-A315G XXV)
 # One UI 3.1 (  May be One UI 3.1 Core Version Can use this code)
-# Email Contact://, minhthienmap@gmail.com
+# Email Original dev Contact://, minhthienmap@gmail.com 
 # How to use Code:
  * https://www.youtube.com/watch?v=MIUB2myx7Tw&t=362s Thanks to channel: Viettablet 
  * Open File V1.5.5 with Raw
-# At the Final Version: I will not debloat more, or change any code, because it will lead my phone to unconvinience situition, but I promised, I checked carefully every application in phone. Only mistake is missing hearing Adjust:
+# Find and add more packages
  * Use Find (CTRL+F) with keyword 'hearingadjust' and using command: pm install-existing <package name> to re install it again.
- * I'm sorry for this
+ ** f you'd like to see and find packages to add features... just open another cmd with adb copy and paste and look for apss or packages folder:
+            adb shell; cd /system/;
+*to search auto you could possibly use: ls /*/*.apk
+       **if it finds nothing add /* to the start of /*/*.apk
 # OneUI 3.1 Debloat Packages List
 # Research by me and from XDA Forum
-# Aim to Make my phone responisbile quickly every touching, and Boot up feel faster than before
-# And I also keep almost every common function, feautures, and all Google Services for convinience.
-# In new version I'm testing system stability, and function missing if I met. Have fun and try it
+# faster boot-time and more overall system respnsiveness
+# Retains common function, feautures, and all Google Services for convinience.
+# as long as you do not touch ui,system and most .sec apps there should be no issues
 # All Call Function Test ok. (include call recorder)
 * Google Test ok.
 * Chrome Test ok.
@@ -39,7 +42,7 @@
   * Wifi List, Wifi Scan, Wifi connect, Wifi QR Code: ok.
   * Wifi Direct ok.
   * Bluetooth find ok., Bluetooth Connect ok.
-  * NFC:
+  * NFC: Not / for A10f,the a5f has support but adnroid 7
     * Scan: ok
     * Payment: Yes.
     * LTE,4g,3g: ok
