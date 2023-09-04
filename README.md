@@ -1,8 +1,8 @@
-# Author: Lâm Minh Thiện
-# Country: Vietnam
-# Tested Device: Galaxy A31 (SM-A315G XXV)
+# Author:JavaBabyX readptationn of Lâm Minh Thiện https://github.com/lamminhthien-ntu/OneUI-3.1-Debloat-for-Battery-Optimize
+# Country: ,Vietnam
+# Tested Device: Galaxy A31 A10f (SM-A315G XXV)
 # One UI 3.1 (  May be One UI 3.1 Core Version Can use this code)
-# Email Contact: minhthienmap@gmail.com
+# Email Contact://, minhthienmap@gmail.com
 # How to use Code:
  * https://www.youtube.com/watch?v=MIUB2myx7Tw&t=362s Thanks to channel: Viettablet 
  * Open File V1.5.5 with Raw
